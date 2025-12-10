@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (sessionStorage.getItem("loggedIn") === "true") {
             document.getElementById("username-display").textContent = localStorage.getItem("username");
         } else {
-            window.location.href = "/account/login";
+            window.location.href = "/Braindye-mirror/account/login";
         }
     } else {
-        window.location.href = "/account/signup";
+        window.location.href = "/Braindye-mirror/account/signup";
     }
 });
