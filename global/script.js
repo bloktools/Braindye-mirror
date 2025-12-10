@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
     body.insertAdjacentHTML("afterbegin", `
         <nav>
         <ul>
-            <a href="/" class=ignore-nav><img src="/global/assets/logo-light.svg" alt="" srcset="" width="160px" height="40px"></a>
+            <a href="/Braindye-mirror/" class=ignore-nav><img src="/Braindye-mirror/global/assets/logo-light.svg" alt="" srcset="" width="160px" height="40px"></a>
         </ul>
         <ul>
-            <a href="/about"><li>About</li></a>
-            <a href="/help"><li>Help</li></a>
-            <a href="/dashboard" class="dashboard"><li>Dashboard</li></a>
-            <a href="/pricing"><li>Pricing</li></a>
+            <a href="/Braindye-mirror/about"><li>About</li></a>
+            <a href="/Braindye-mirror/help"><li>Help</li></a>
+            <a href="/Braindye-mirror/dashboard" class="dashboard"><li>Dashboard</li></a>
+            <a href="/Braindye-mirror/pricing"><li>Pricing</li></a>
         </ul>
         <ul>
             <a href="/account"><li>Account</li></a>
@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (getStartedButton) {
         getStartedButton.addEventListener("click", function() {
             if (localStorage.getItem("hasAccount")) {
-                window.location.href = "/account/login";
+                window.location.href = "/Braindye-mirror/account/login";
             } else {
-                window.location.href = "/account/signup";
+                window.location.href = "/Braindye-mirror/account/signup";
             };
         });
     }
